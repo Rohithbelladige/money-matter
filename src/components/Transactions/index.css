@@ -1,0 +1,108 @@
+.dashborad-container{
+    display: flex;
+    height: 100vh;
+    background-color: rgba(179, 181, 183, 0.169);
+}
+.bottom-container{
+    padding: 12px;
+}
+.transaction-nav-container{
+    width: 100%;
+    background-color: white;
+    padding: 8px;
+}
+.all-trans-name{
+    font-size: 22px;
+}
+.trans-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    height: 35px;
+    
+}
+.all-container{
+    display: flex;
+    align-items: flex-start;
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 0px;
+    gap: 15px;
+    height: 30px;
+    
+}
+.add-transaction-button{
+    background-color:#2D60FF;
+    border: 0px none;
+    border-radius: 12px;
+    color: white;
+    padding: 12px;
+
+}
+.no-button{
+    border: 0px none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.active{
+    color: #2D60FF;
+    font-weight: 600;
+}
+.amount{
+    color: #16DBAA;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+.debit{
+    color: #FE5C73;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+.des{
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+.all-tran-container{
+    background-color: white;
+    border-radius: 12px;
+    border: 0px none;
+    padding: 8px;
+}
+.heading-item-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 0px, 0px, 1px, 0px;
+    font-weight: 700;
+}
+.item-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 0px, 0px, 1px, 0px;
+}
+.tran-name{
+    margin-right: 208px;
+}
+.tran-space{
+    margin-right: 60px;
+}
+.edit{
+    color: #2D60FF;
+    margin-right: 15px;
+}
+.delete{
+    color:  #FE5C73;    
+}
+.overview-container{
+    background-color: white;
+    border-radius: 12px;
+    border: 0px none;
+}
+.top-section-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}

@@ -1,0 +1,122 @@
+.dashborad-container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgba(179, 181, 183, 0.169);
+}
+.bottom-container{
+    padding: 12px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    padding: 8px;
+}
+.add-transaction-button{
+    background-color:#2D60FF;
+    border: 0px none;
+    border-radius: 12px;
+    color: white;
+    padding: 12px;
+
+}
+.credit-debit-container{
+    display: flex;
+}
+
+.credit-container{
+    background-color: white;
+    border-radius: 12px;
+    width: 543px;
+    border: 0px none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    padding: 10px;
+   
+}
+.credit{
+    width: 120px;
+    
+}
+.texts{
+    width: 125px;
+    margin-left: 18px;
+    margin-top: 0px;
+    align-self: flex-start;
+
+}
+.amount{
+    color: #16DBAA;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+.debit{
+    color: #FE5C73;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+.des{
+    margin-top: 0px;
+    font-size: 12px;
+}
+.last-tran-container{
+    background-color: white;
+    border-radius: 12px;
+    border: 0px none;
+}
+.item-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 0px, 0px, 1px, 0px;
+}
+.tran-name{
+    margin-right: 208px;
+}
+.tran-space{
+    margin-right: 60px;
+}
+.edit{
+    color: #2D60FF;
+    margin-right: 15px;
+}
+.delete{
+    color:  #FE5C73;    
+}
+.overview-container{
+    background-color: white;
+    border-radius: 12px;
+    border: 0px none;
+}
+.top-section-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+.colors-container{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    gap: 35px;
+}
+
+.box-debit{
+    height: 10px;
+    box-shadow: 0px 0px 15px 0px #024cf980 inset;
+    color: #4C78FF;
+    width: 10px;
+    margin-right: 10px;
+}
+.box-credit{
+  
+    height: 10px;
+    box-shadow: 0px 0px 15px 0px #AC0D6C80 inset;
+    color: #FCAA0B;
+    width: 10px;
+    margin-right: 25px;
+}

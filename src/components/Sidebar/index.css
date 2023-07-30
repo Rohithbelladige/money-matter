@@ -1,0 +1,46 @@
+.whole-container{
+    display: flex;
+}
+.sidebar-container{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    padding: 17px;
+    box-shadow: 0px 1px 0px 1px #d6d6d9f4;
+}
+.bar-container{
+    width: 17%;
+    height: 100vh;
+    
+}
+.render-container{
+    width: 82%;
+    height: 100vh;
+}
+.image{
+    width: 70%;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.bar-text{
+    margin-left: 6px;
+}
+
+
+.profile-and-logout{
+   display: flex;
+   align-items: center;
+
+  
+}
+.icon-color{
+    color: #64748b;
+}
+.logout-button{
+    background-color: transparent;
+    border: 0px none;
+    cursor: pointer;
+}
